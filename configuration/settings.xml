@@ -72,14 +72,13 @@
           <id>jboss-public-repository-group</id>
           <name>JBoss Public Repository Group</name>
           <url>https://repository.jboss.org/nexus/content/groups/public/</url>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
           <releases>
             <enabled>true</enabled>
             <updatePolicy>never</updatePolicy>
           </releases>
-          <snapshots>
-            <enabled>true</enabled>
-            <updatePolicy>daily</updatePolicy>
-          </snapshots>
         </repository>
         
       </repositories>
